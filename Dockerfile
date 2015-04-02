@@ -4,7 +4,7 @@
 # a list of version numbers.
 FROM phusion/baseimage:0.9.16
 
-RUN apt-get update && apt-get -y install git build-essential curl && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN apt-get update && apt-get -y install git build-essential  && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN curl -sL https://deb.nodesource.com/setup | sudo bash -
 
