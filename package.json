@@ -1,0 +1,19 @@
+{
+  "name": "docker-nginx-node",
+  "version": "1.0.0",
+  "description": "Reactdocker-nginx-node",
+  "author": "Bobby Kostadinov b.a.kostadinov@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BobbyKostadinov/docker-nginx-node"
+  },
+  "keywords": [
+    "docker",
+    "nodejs",
+    "aws",
+    "nginx"
+  ],
+  "dependencies": {
+  },
+  "license": "MIT"
+}
